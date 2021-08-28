@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -8,29 +9,31 @@ function Footer() {
         style={{ backgroundColor: "black" }}
       >
         <div className="py-5">
-          <h2 className="text-light">Interested in working with me?</h2>
-          <button className="btn btn-outline-light btn-lg mt-3">
-            Let's talk
-          </button>
+          <h2 className="text-light interested">Interested in working with me?</h2>
+          <Link to="/contact">
+            <button className="btn btn-outline-warning btn-lg mt-3 interested">
+              RING IN!
+            </button>
+          </Link>
         </div>
         <div className="row">
           <div className="col-12 col-md-4 py-3">
-            <h5 className="text-info pb-3">More links</h5>
+            <h5 className="text-warning pb-3">More links</h5>
             <a href="/" className="text-light d-block">
               Blogs
             </a>
-            <a href="/" className="text-light d-block">
+            <Link to="/" className="text-light d-block">
               Home
-            </a>
+            </Link>
             <a href="/" className="text-light d-block">
               Projects
             </a>
-            <a href="/" className="text-light d-block">
+            <Link to="/contact" className="text-light d-block">
               Contact me
-            </a>
-            <a href="/" className="text-light">
+            </Link>
+            <Link to="/write-a-recommendation" className="text-light">
               Write a recommendation <i className="fas fa-heart text-light"></i>
-            </a>
+            </Link>
           </div>
           <div className="col-12 col-md-4 text-light text-justify py-3">
             <p>
@@ -46,7 +49,7 @@ function Footer() {
             </p>
           </div>
           <div className="col-12 col-md-4 py-3">
-            <h5 className="text-info pb-3">Social</h5>
+            <h5 className="text-warning pb-3">Social</h5>
             <a href="/">
               <i className="fab fa-linkedin text-light h1 d-block"></i>
             </a>

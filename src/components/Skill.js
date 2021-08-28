@@ -8,7 +8,7 @@ function Skill(props) {
   for (let i = 0; i < starsTotal; i++) {
     if (i < starsActive) {
       starsList.push(
-        <span key={uuid()} className="text-info">
+        <span key={uuid()} className="text-warning">
           ★
         </span>
       );
