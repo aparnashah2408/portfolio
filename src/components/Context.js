@@ -99,7 +99,7 @@ export class Provider extends Component{
         {
           id: 1,
           name: "Random guy 1",
-          company: "ABC company",
+          company: "RARA company",
           designation: "CEO",
           recommendationMessage: "He is a good hello engineer.",
         },
