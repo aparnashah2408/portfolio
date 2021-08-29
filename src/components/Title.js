@@ -87,7 +87,7 @@ function Title(props) {
 
 
         <h1 className="text-center text-white name" >
-      Hi I am, <span className="text-warning font1">Distorted Ass.</span> 
+      Hi I am, <span className="text-warning font1">Aparna Shah.</span> 
       <br/>
       I am a <span className="text-warning font1">freelancer</span> from India.
     </h1>
